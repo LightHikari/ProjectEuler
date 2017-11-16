@@ -14,9 +14,9 @@ int main(){
       result += a;
     }
   }
-  printf("The solution is: %d\n", result);
+  printf("%d\n", result);
   return 0;
 }
 
-//The solution is: 233168
+//233168
 //[Finished in 0.175s]

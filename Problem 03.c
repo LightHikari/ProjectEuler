@@ -39,3 +39,6 @@ int main(){
   printf("%d\n", factor);
   return 0;
 }
+
+//6857
+//[Finished in 0.183s]

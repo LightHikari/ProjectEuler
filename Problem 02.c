@@ -26,4 +26,4 @@ int main(){
 }
 
 //4613732
-//[Finished in 0.235s]
+//[Finished in 0.172s]
