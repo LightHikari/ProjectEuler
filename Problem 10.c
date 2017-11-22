@@ -13,7 +13,7 @@ int main(){
   double sum = 0;
 
 
-  for(i = 0; i < 2000000; i++){
+  for(i = 2; i < 2000000; i++){
     primes[i] = true;
   }
 
@@ -22,17 +22,13 @@ int main(){
 
   for(i = 2; i < 2000000; i++){
     if (primes[i]){
+      sum += i;
       for (n = i * 2; n < 2000000; n += i){
         primes[n] = false;
       }
     }
   }
 
-  for(i = 0; i < 2000000; i++){
-    if(primes[i]){
-      sum += i;
-    }
-  }
   printf("%.0f\n", sum);
 
   return 0;
